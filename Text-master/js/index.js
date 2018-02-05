@@ -19,7 +19,7 @@ function onPageShow() {
 
 function processResults(tasks) {
    //display the first task in an array of tasks. 
-alert(tasks[0].Task)
+
 
 $("#taskList").empty();
 
