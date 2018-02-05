@@ -57,6 +57,7 @@ function onAddTask() {
         
     Backendless.Data.of("Tasks").save(newTask).then(saved).catch(error); 
 	
+    location.reload();
 }
 
    
